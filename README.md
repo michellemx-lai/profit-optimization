@@ -2,7 +2,7 @@
 
 # Context
 
-In 2006, market analysts predicted that WARP Shoe Company would see a doubling in their customer’s demand for shoes in February from the previous month. A linear program (LP) has been formulated to create the most profitable production plan for the company. The model involves two decision variables: x_i, the amount of a specific type of shoe  produced i, and y_w, a binary variable indicating whether a certain warehouse space is utilized. The objective function seeks to maximize profit by minimizing expenses and is subject to five constraints: warehouse capacities, available quantity of raw materials, customer demands, budget for raw materials, total processing time for the machines and non-negativity. Upon solving this IP, using relaxation of the integer constraints, the optimal profit has been found to be $11,978,412.80. 
+In 2006, market analysts predicted that a shoe company would see a doubling in their customer’s demand for shoes in February from the previous month. A linear program (LP) has been formulated to create the most profitable production plan for the company. The model involves two decision variables: x_i, the amount of a specific type of shoe  produced i, and y_w, a binary variable indicating whether a certain warehouse space is utilized. The objective function seeks to maximize profit by minimizing expenses and is subject to five constraints: warehouse capacities, available quantity of raw materials, customer demands, budget for raw materials, total processing time for the machines and non-negativity. Upon solving this IP, using relaxation of the integer constraints, the optimal profit has been found to be $11,978,412.80. 
 
 To maximize the company’s profit, the principles of linear programs (LPs) were used to model the expenses and incomes subject with specific constraints. The solution utilized SQL and MS Access for analysing and filtering data, AMPL for modeling the LP, and Gurobi for solving the LP. This method of deciding on the most profitable production plan is not only efficient, but it also increases objectivity – all assumptions will be detailed in a later section. This LP also facilitates sensitivity analyses, allowing the team to easily consider how sensitive the optimal solution is to external factors, such as changes in the cost of supply or demand for a specific shoe.
 
@@ -25,7 +25,7 @@ To maximize the company’s profit, the principles of linear programs (LPs) were
 16. The number of shoes produced is not an integer number, in order to adhere to the linear program
 
 # Files (.mod, .dat, .run, .out)
-The model created to maximize the WARP shoe company’s profit makes use of four types of files. These files are the data file (.dat), the module file (.mod), the executable file (.run), and the compiled executable file (.out). 
+The model created to maximize the company’s profit makes use of four types of files. These files are the data file (.dat), the module file (.mod), the executable file (.run), and the compiled executable file (.out). 
 
 The purpose of the data file is to access the data provided for this project, as well as the SQL queries used to filter the data. In order to analyse the objective function, Microsoft Access was used to view the data provided. Next, queries were designed in order to read in the tables (for use in other files). Additionally, SQL queries were used to perform calculations on our data for use in answering the questions below. An example of one of these SQL queries is the query used to calculate the demand for February 2006. 
 
