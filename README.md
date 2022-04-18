@@ -7,7 +7,7 @@ In 2006, market analysts predicted that a shoe company would see a doubling in t
 To maximize the company’s profit, the principles of linear programs (LPs) were used to model the expenses and incomes subject with specific constraints. The solution utilized SQL and MS Access for analysing and filtering data, AMPL for modeling the LP, and Gurobi for solving the LP. This method of deciding on the most profitable production plan is not only efficient, but it also increases objectivity – all assumptions will be detailed in a later section. This LP also facilitates sensitivity analyses, allowing the team to easily consider how sensitive the optimal solution is to external factors, such as changes in the cost of supply or demand for a specific shoe.
 
 # Assumptions
-1. Several assumptions were made during the formulation of this IP:
+1. Several assumptions were made during the formulation of this LP:
 2. The product demand for February 2006 was assumed to be double the demand for January 2006 based on market prediction. To estimate the demand of January 2006, we calculated the mean demand for shoes in the month of January from 1997 to 2003 (inclusive). This mean past demand was multiplied by 2, to estimate the demand for February 2006
 3. All manufacturing sequence and transportation costs are ignored
 4. All set-up times for machines, manufacturing, and the like are ignored
