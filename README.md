@@ -1,4 +1,4 @@
-# profit-optimization
+# Optimizing Company Profit Using Linear Programming 
 
 # Context
 
