@@ -1,0 +1,43 @@
+/*
+
+Michelle_Lai_laimic12_1007260250
+Jasmine_Chahal_chahal44_1006872889
+Katriel_Ung_ungkatri_1006747200
+
+*/
+
+# set: shoe_num
+table Product_Master IN "ODBC" "S:\ecfpc\Warp2011W.mdb" "Product_Master": 
+	shoe_num <- [Product_Num], price ~ Sales_Price;
+read table Product_Master; 
+
+# param: demand
+table Product_Demand IN "ODBC" "S:\ecfpc\Warp2011W.mdb" "SQL=SELECT Product_Num, Avg(Demand) AS Avg_Feb_Demand FROM Product_Demand WHERE Month = 1 GROUP BY Product_Num;":
+	shoe_num <- [Product_Num], demand ~ Avg_Feb_Demand;
+read table Product_Demand;
+
+# set: machine_num
+table Machine_Master IN "ODBC" "S:\ECFPC\WARP2011W.mdb" "Machine_Master": 
+	machine_num <- [Machine_Num], machineCost ~ OpCost_per_min;
+read table Machine_Master; 
+
+# param: machineTime 
+table Machine_Assign IN "ODBC" "S:\ECFPC\WARP2011W.mdb" "Machine_Assign":
+	[Product_Num, Machine_Num], machineTime ~ Avg_Duration;
+read table Machine_Assign;
+
+# set: warehouse_num
+table Warehouse_Master IN "ODBC" "S:\ECFPC\WARP2011W.mdb" "Warehouse_Master": 
+	warehouse_num <- [Warehouse_Num], warehouseCost ~ Op_Cost, warehouseCap ~ Capacity;
+read table Warehouse_Master; 
+
+# set: RM_num
+table RM_Master IN "ODBC" "S:\ECFPC\WARP2011W.mdb" "RM_Master": 
+	RM_num <- [RM_Num], materialCost ~ Cost, materialAvail ~ S_Quantity; 
+read table RM_Master; 
+
+# param: materialUsed
+table BOM IN "ODBC" "S:\ECFPC\WARP2011W.mdb" "BOM": 
+	[Product_Num, RM_Num], materialUsed ~ Quantity; 
+read table BOM; 
+

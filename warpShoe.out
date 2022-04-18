@@ -1,0 +1,842 @@
+a) Please see attached mod, dat and run files.
+b) Optimal objective function value: 11978412.80
+c) Optimal x values:
+	 x[SH002] = 438
+	 x[SH005] = 189
+	 x[SH009] = 25
+	 x[SH011] = 478
+	 x[SH012] = 361
+	 x[SH013] = 464
+	 x[SH018] = 158
+	 x[SH019] = 320
+	 x[SH024] = 391
+	 x[SH025] = 444
+	 x[SH027] = 422
+	 x[SH029] = 334
+	 x[SH031] = 318
+	 x[SH032] = 424
+	 x[SH034] = 430
+	 x[SH038] = 438
+	 x[SH039] = 446
+	 x[SH040] = 438
+	 x[SH041] = 419
+	 x[SH042] = 179
+	 x[SH044] = 455
+	 x[SH045] = 410
+	 x[SH047] = 370
+	 x[SH048] = 367
+	 x[SH050] = 448
+	 x[SH053] = 62
+	 x[SH057] = 316
+	 x[SH058] = 489
+	 x[SH060] = 129
+	 x[SH061] = 235
+	 x[SH062] = 427
+	 x[SH063] = 369
+	 x[SH064] = 34
+	 x[SH065] = 374
+	 x[SH070] = 80
+	 x[SH071] = 362
+	 x[SH072] = 96
+	 x[SH073] = 292
+	 x[SH076] = 14
+	 x[SH077] = 218
+	 x[SH078] = 370
+	 x[SH079] = 110
+	 x[SH080] = 397
+	 x[SH081] = 280
+	 x[SH082] = 391
+	 x[SH087] = 456
+	 x[SH088] = 393
+	 x[SH090] = 424
+	 x[SH093] = 188
+	 x[SH094] = 411
+	 x[SH095] = 471
+	 x[SH096] = 450
+	 x[SH105] = 482
+	 x[SH106] = 234
+	 x[SH107] = 87
+	 x[SH110] = 358
+	 x[SH113] = 450
+	 x[SH116] = 189
+	 x[SH117] = 197
+	 x[SH118] = 176
+	 x[SH121] = 483
+	 x[SH123] = 18
+	 x[SH126] = 107
+	 x[SH127] = 338
+	 x[SH130] = 97
+	 x[SH132] = 6
+	 x[SH133] = 0
+	 x[SH134] = 458
+	 x[SH142] = 452
+	 x[SH144] = 432
+	 x[SH146] = 448
+	 x[SH147] = 20
+	 x[SH149] = 20
+	 x[SH150] = 467
+	 x[SH153] = 101
+	 x[SH154] = 436
+	 x[SH165] = 385
+	 x[SH168] = 364
+	 x[SH172] = 15
+	 x[SH173] = 283
+	 x[SH176] = 434
+	 x[SH178] = 164
+	 x[SH179] = 142
+	 x[SH183] = 167
+	 x[SH184] = 101
+	 x[SH185] = 488
+	 x[SH186] = 114
+	 x[SH187] = 196
+	 x[SH188] = 195
+	 x[SH194] = 375
+	 x[SH195] = 231
+	 x[SH197] = 437
+	 x[SH199] = 11
+	 x[SH201] = 368
+	 x[SH203] = 399
+	 x[SH205] = 209
+	 x[SH207] = 110
+	 x[SH209] = 423
+	 x[SH213] = 434
+	 x[SH217] = 67
+	 x[SH221] = 480
+	 x[SH222] = 67
+	 x[SH223] = 416
+	 x[SH224] = 429
+	 x[SH225] = 382
+	 x[SH226] = 421
+	 x[SH227] = 160
+	 x[SH229] = 155
+	 x[SH230] = 65
+	 x[SH232] = 327
+	 x[SH233] = 430
+	 x[SH234] = 432
+	 x[SH235] = 401
+	 x[SH236] = 340
+	 x[SH238] = 411
+	 x[SH239] = 118
+	 x[SH240] = 73
+	 x[SH241] = 450
+	 x[SH244] = 335
+	 x[SH247] = 239
+	 x[SH248] = 98
+	 x[SH249] = 472
+	 x[SH253] = 409
+	 x[SH254] = 438
+	 x[SH255] = 194
+	 x[SH256] = 451
+	 x[SH260] = 62
+	 x[SH261] = 426
+	 x[SH262] = 538
+	 x[SH265] = 419
+	 x[SH269] = 388
+	 x[SH270] = 198
+	 x[SH273] = 200
+	 x[SH274] = 131
+	 x[SH276] = 279
+	 x[SH277] = 452
+	 x[SH279] = 24
+	 x[SH281] = 325
+	 x[SH282] = 382
+	 x[SH284] = 395
+	 x[SH286] = 421
+	 x[SH287] = 452
+	 x[SH288] = 134
+	 x[SH289] = 414
+	 x[SH290] = 55
+	 x[SH295] = 484
+	 x[SH298] = 18
+	 x[SH299] = 284
+	 x[SH300] = 494
+	 x[SH308] = 271
+	 x[SH312] = 406
+	 x[SH313] = 350
+	 x[SH314] = 421
+	 x[SH316] = 236
+	 x[SH317] = 273
+	 x[SH320] = 442
+	 x[SH322] = 266
+	 x[SH325] = 499
+	 x[SH326] = 51
+	 x[SH328] = 41
+	 x[SH329] = 476
+	 x[SH331] = 53
+	 x[SH334] = 478
+	 x[SH338] = 232
+	 x[SH340] = 396
+	 x[SH341] = 424
+	 x[SH342] = 273
+	 x[SH345] = 297
+	 x[SH347] = 120
+	 x[SH348] = 396
+	 x[SH349] = 99
+	 x[SH352] = 454
+	 x[SH356] = 372
+	 x[SH359] = 67
+	 x[SH361] = 432
+	 x[SH362] = 443
+	 x[SH365] = 357
+	 x[SH366] = 345
+	 x[SH367] = 368
+	 x[SH369] = 384
+	 x[SH371] = 43
+	 x[SH372] = 360
+	 x[SH373] = 436
+	 x[SH376] = 85
+	 x[SH378] = 418
+	 x[SH379] = 230
+	 x[SH381] = 105
+	 x[SH384] = 512
+	 x[SH391] = 88
+	 x[SH394] = 93
+	 x[SH395] = 445
+	 x[SH399] = 463
+	 x[SH400] = 89
+	 x[SH402] = 121
+	 x[SH407] = 422
+	 x[SH410] = 165
+	 x[SH411] = 437
+	 x[SH415] = 366
+	 x[SH417] = 478
+	 x[SH418] = 259
+	 x[SH419] = 410
+	 x[SH420] = 71
+	 x[SH421] = 434
+	 x[SH423] = 452
+	 x[SH425] = 484
+	 x[SH427] = 400
+	 x[SH429] = 39
+	 x[SH430] = 451
+	 x[SH435] = 141
+	 x[SH438] = 67
+	 x[SH442] = 46
+	 x[SH444] = 11
+	 x[SH445] = 505
+	 x[SH447] = 395
+	 x[SH449] = 68
+	 x[SH451] = 417
+	 x[SH453] = 500
+	 x[SH456] = 424
+	 x[SH457] = 118
+	 x[SH458] = 259
+	 x[SH459] = 333
+	 x[SH462] = 189
+	 x[SH464] = 325
+	 x[SH465] = 185
+	 x[SH466] = 479
+	 x[SH467] = 43
+	 x[SH468] = 75
+	 x[SH470] = 383
+	 x[SH471] = 385
+	 x[SH472] = 211
+	 x[SH473] = 51
+	 x[SH474] = 216
+	 x[SH476] = 421
+	 x[SH477] = 472
+	 x[SH478] = 458
+	 x[SH479] = 405
+	 x[SH483] = 400
+	 x[SH487] = 142
+	 x[SH489] = 399
+	 x[SH490] = 406
+	 x[SH491] = 117
+	 x[SH492] = 123
+	 x[SH495] = 101
+	 x[SH496] = 91
+	 x[SH497] = 443
+	 x[SH498] = 295
+	 x[SH499] = 193
+	 x[SH500] = 426
+	 x[SH501] = 435
+	 x[SH508] = 311
+	 x[SH511] = 446
+	 x[SH513] = 319
+	 x[SH514] = 468
+	 x[SH516] = 433
+	 x[SH520] = 157
+	 x[SH521] = 303
+	 x[SH522] = 6
+	 x[SH523] = 138
+	 x[SH524] = 54
+	 x[SH525] = 288
+	 x[SH527] = 275
+	 x[SH532] = 486
+	 x[SH534] = 302
+	 x[SH535] = 436
+	 x[SH536] = 108
+	 x[SH537] = 268
+	 x[SH540] = 171
+	 x[SH543] = 353
+	 x[SH544] = 98
+	 x[SH546] = 388
+	 x[SH547] = 37
+	 x[SH549] = 13
+	 x[SH552] = 152
+	 x[SH556] = 398
+	 x[SH557] = 488
+c) Optimal y values:
+	 y[2] = 1
+	 y[3] = 1
+	 y[4] = 1
+	 y[6] = 1
+	 y[7] = 1
+d) Binding constraints: 
+	 produceAndDemand[SH002]
+	 produceAndDemand[SH011]
+	 produceAndDemand[SH013]
+	 produceAndDemand[SH025]
+	 produceAndDemand[SH027]
+	 produceAndDemand[SH032]
+	 produceAndDemand[SH034]
+	 produceAndDemand[SH038]
+	 produceAndDemand[SH040]
+	 produceAndDemand[SH044]
+	 produceAndDemand[SH045]
+	 produceAndDemand[SH050]
+	 produceAndDemand[SH058]
+	 produceAndDemand[SH062]
+	 produceAndDemand[SH071]
+	 produceAndDemand[SH078]
+	 produceAndDemand[SH080]
+	 produceAndDemand[SH087]
+	 produceAndDemand[SH088]
+	 produceAndDemand[SH090]
+	 produceAndDemand[SH094]
+	 produceAndDemand[SH095]
+	 produceAndDemand[SH096]
+	 produceAndDemand[SH105]
+	 produceAndDemand[SH110]
+	 produceAndDemand[SH113]
+	 produceAndDemand[SH121]
+	 produceAndDemand[SH134]
+	 produceAndDemand[SH142]
+	 produceAndDemand[SH144]
+	 produceAndDemand[SH146]
+	 produceAndDemand[SH150]
+	 produceAndDemand[SH154]
+	 produceAndDemand[SH165]
+	 produceAndDemand[SH176]
+	 produceAndDemand[SH185]
+	 produceAndDemand[SH197]
+	 produceAndDemand[SH201]
+	 produceAndDemand[SH203]
+	 produceAndDemand[SH209]
+	 produceAndDemand[SH213]
+	 produceAndDemand[SH221]
+	 produceAndDemand[SH223]
+	 produceAndDemand[SH224]
+	 produceAndDemand[SH226]
+	 produceAndDemand[SH233]
+	 produceAndDemand[SH234]
+	 produceAndDemand[SH235]
+	 produceAndDemand[SH249]
+	 produceAndDemand[SH253]
+	 produceAndDemand[SH254]
+	 produceAndDemand[SH256]
+	 produceAndDemand[SH261]
+	 produceAndDemand[SH262]
+	 produceAndDemand[SH269]
+	 produceAndDemand[SH277]
+	 produceAndDemand[SH282]
+	 produceAndDemand[SH286]
+	 produceAndDemand[SH287]
+	 produceAndDemand[SH289]
+	 produceAndDemand[SH295]
+	 produceAndDemand[SH300]
+	 produceAndDemand[SH312]
+	 produceAndDemand[SH320]
+	 produceAndDemand[SH325]
+	 produceAndDemand[SH329]
+	 produceAndDemand[SH334]
+	 produceAndDemand[SH340]
+	 produceAndDemand[SH341]
+	 produceAndDemand[SH348]
+	 produceAndDemand[SH352]
+	 produceAndDemand[SH361]
+	 produceAndDemand[SH362]
+	 produceAndDemand[SH365]
+	 produceAndDemand[SH367]
+	 produceAndDemand[SH369]
+	 produceAndDemand[SH373]
+	 produceAndDemand[SH378]
+	 produceAndDemand[SH384]
+	 produceAndDemand[SH399]
+	 produceAndDemand[SH407]
+	 produceAndDemand[SH411]
+	 produceAndDemand[SH417]
+	 produceAndDemand[SH421]
+	 produceAndDemand[SH423]
+	 produceAndDemand[SH425]
+	 produceAndDemand[SH427]
+	 produceAndDemand[SH430]
+	 produceAndDemand[SH445]
+	 produceAndDemand[SH451]
+	 produceAndDemand[SH453]
+	 produceAndDemand[SH456]
+	 produceAndDemand[SH476]
+	 produceAndDemand[SH477]
+	 produceAndDemand[SH478]
+	 produceAndDemand[SH479]
+	 produceAndDemand[SH483]
+	 produceAndDemand[SH489]
+	 produceAndDemand[SH490]
+	 produceAndDemand[SH497]
+	 produceAndDemand[SH500]
+	 produceAndDemand[SH501]
+	 produceAndDemand[SH511]
+	 produceAndDemand[SH514]
+	 produceAndDemand[SH516]
+	 produceAndDemand[SH532]
+	 produceAndDemand[SH535]
+	 produceAndDemand[SH546]
+	 produceAndDemand[SH556]
+	 produceAndDemand[SH557]
+	 materialSupply[1]
+	 materialSupply[2]
+	 materialSupply[3]
+	 materialSupply[4]
+	 materialSupply[5]
+	 materialSupply[6]
+	 materialSupply[7]
+	 materialSupply[8]
+	 materialSupply[9]
+	 materialSupply[10]
+	 materialSupply[11]
+	 materialSupply[12]
+	 materialSupply[13]
+	 materialSupply[14]
+	 materialSupply[15]
+	 materialSupply[16]
+	 materialSupply[17]
+	 materialSupply[18]
+	 materialSupply[19]
+	 materialSupply[20]
+	 materialSupply[21]
+	 materialSupply[22]
+	 materialSupply[23]
+	 materialSupply[24]
+	 materialSupply[25]
+	 materialSupply[26]
+	 materialSupply[27]
+	 materialSupply[28]
+	 materialSupply[29]
+	 materialSupply[30]
+	 materialSupply[31]
+	 materialSupply[32]
+	 materialSupply[33]
+	 materialSupply[34]
+	 materialSupply[35]
+	 materialSupply[36]
+	 materialSupply[37]
+	 materialSupply[38]
+	 materialSupply[39]
+	 materialSupply[40]
+	 materialSupply[41]
+	 materialSupply[42]
+	 materialSupply[43]
+	 materialSupply[44]
+	 materialSupply[45]
+	 materialSupply[46]
+	 materialSupply[47]
+	 materialSupply[48]
+	 materialSupply[49]
+	 materialSupply[50]
+	 materialSupply[51]
+	 materialSupply[52]
+	 materialSupply[53]
+	 materialSupply[54]
+	 materialSupply[55]
+	 materialSupply[56]
+	 materialSupply[57]
+	 materialSupply[58]
+	 materialSupply[59]
+	 materialSupply[60]
+	 materialSupply[61]
+	 materialSupply[62]
+	 materialSupply[63]
+	 materialSupply[64]
+	 materialSupply[65]
+	 materialSupply[66]
+	 materialSupply[67]
+	 materialSupply[68]
+	 materialSupply[69]
+	 materialSupply[70]
+	 materialSupply[71]
+	 materialSupply[72]
+	 materialSupply[73]
+	 materialSupply[74]
+	 materialSupply[75]
+	 materialSupply[76]
+	 materialSupply[77]
+	 materialSupply[78]
+	 materialSupply[79]
+	 materialSupply[80]
+	 materialSupply[81]
+	 materialSupply[82]
+	 materialSupply[83]
+	 materialSupply[84]
+	 materialSupply[85]
+	 materialSupply[86]
+	 materialSupply[87]
+	 materialSupply[88]
+	 materialSupply[89]
+	 materialSupply[90]
+	 materialSupply[91]
+	 materialSupply[92]
+	 materialSupply[93]
+	 materialSupply[94]
+	 materialSupply[95]
+	 materialSupply[96]
+	 materialSupply[97]
+	 materialSupply[98]
+	 materialSupply[99]
+	 materialSupply[100]
+	 materialSupply[101]
+	 materialSupply[102]
+	 materialSupply[103]
+	 materialSupply[104]
+	 materialSupply[105]
+	 materialSupply[106]
+	 materialSupply[107]
+	 materialSupply[108]
+	 materialSupply[109]
+	 materialSupply[110]
+	 materialSupply[111]
+	 materialSupply[112]
+	 materialSupply[113]
+	 materialSupply[114]
+	 materialSupply[115]
+	 materialSupply[116]
+	 materialSupply[117]
+	 materialSupply[118]
+	 materialSupply[119]
+	 materialSupply[120]
+	 materialSupply[121]
+	 materialSupply[122]
+	 materialSupply[123]
+	 materialSupply[124]
+	 materialSupply[125]
+	 materialSupply[126]
+	 materialSupply[127]
+	 materialSupply[128]
+	 materialSupply[129]
+	 materialSupply[130]
+	 materialSupply[131]
+	 materialSupply[132]
+	 materialSupply[133]
+	 materialSupply[134]
+	 materialSupply[135]
+	 materialSupply[136]
+	 materialSupply[137]
+	 materialSupply[138]
+	 materialSupply[139]
+	 materialSupply[140]
+	 materialSupply[141]
+	 materialSupply[142]
+	 materialSupply[143]
+	 materialSupply[144]
+	 materialSupply[145]
+	 materialSupply[146]
+	 materialSupply[147]
+	 materialSupply[148]
+	 materialSupply[149]
+	 materialSupply[150]
+	 materialSupply[151]
+	 materialSupply[152]
+	 materialSupply[153]
+	 materialSupply[154]
+	 materialSupply[155]
+	 materialSupply[156]
+	 materialSupply[157]
+	 materialSupply[158]
+	 materialSupply[159]
+	 materialSupply[160]
+	 materialSupply[161]
+	 materialSupply[162]
+	 materialSupply[163]
+	 materialSupply[164]
+	 materialSupply[165]
+	 nonneg[SH001] 
+	 nonneg[SH003] 
+	 nonneg[SH004] 
+	 nonneg[SH006] 
+	 nonneg[SH007] 
+	 nonneg[SH008] 
+	 nonneg[SH010] 
+	 nonneg[SH014] 
+	 nonneg[SH015] 
+	 nonneg[SH016] 
+	 nonneg[SH017] 
+	 nonneg[SH020] 
+	 nonneg[SH021] 
+	 nonneg[SH022] 
+	 nonneg[SH023] 
+	 nonneg[SH026] 
+	 nonneg[SH028] 
+	 nonneg[SH030] 
+	 nonneg[SH033] 
+	 nonneg[SH035] 
+	 nonneg[SH036] 
+	 nonneg[SH037] 
+	 nonneg[SH043] 
+	 nonneg[SH046] 
+	 nonneg[SH049] 
+	 nonneg[SH051] 
+	 nonneg[SH052] 
+	 nonneg[SH054] 
+	 nonneg[SH055] 
+	 nonneg[SH056] 
+	 nonneg[SH059] 
+	 nonneg[SH066] 
+	 nonneg[SH067] 
+	 nonneg[SH068] 
+	 nonneg[SH069] 
+	 nonneg[SH074] 
+	 nonneg[SH075] 
+	 nonneg[SH083] 
+	 nonneg[SH084] 
+	 nonneg[SH085] 
+	 nonneg[SH086] 
+	 nonneg[SH089] 
+	 nonneg[SH091] 
+	 nonneg[SH092] 
+	 nonneg[SH097] 
+	 nonneg[SH098] 
+	 nonneg[SH099] 
+	 nonneg[SH100] 
+	 nonneg[SH101] 
+	 nonneg[SH102] 
+	 nonneg[SH103] 
+	 nonneg[SH104] 
+	 nonneg[SH108] 
+	 nonneg[SH109] 
+	 nonneg[SH111] 
+	 nonneg[SH112] 
+	 nonneg[SH114] 
+	 nonneg[SH115] 
+	 nonneg[SH119] 
+	 nonneg[SH120] 
+	 nonneg[SH122] 
+	 nonneg[SH124] 
+	 nonneg[SH125] 
+	 nonneg[SH128] 
+	 nonneg[SH129] 
+	 nonneg[SH131] 
+	 nonneg[SH135] 
+	 nonneg[SH136] 
+	 nonneg[SH137] 
+	 nonneg[SH138] 
+	 nonneg[SH139] 
+	 nonneg[SH140] 
+	 nonneg[SH141] 
+	 nonneg[SH143] 
+	 nonneg[SH145] 
+	 nonneg[SH148] 
+	 nonneg[SH151] 
+	 nonneg[SH152] 
+	 nonneg[SH155] 
+	 nonneg[SH156] 
+	 nonneg[SH157] 
+	 nonneg[SH158] 
+	 nonneg[SH159] 
+	 nonneg[SH160] 
+	 nonneg[SH161] 
+	 nonneg[SH162] 
+	 nonneg[SH163] 
+	 nonneg[SH164] 
+	 nonneg[SH166] 
+	 nonneg[SH167] 
+	 nonneg[SH169] 
+	 nonneg[SH170] 
+	 nonneg[SH171] 
+	 nonneg[SH174] 
+	 nonneg[SH175] 
+	 nonneg[SH177] 
+	 nonneg[SH180] 
+	 nonneg[SH181] 
+	 nonneg[SH182] 
+	 nonneg[SH189] 
+	 nonneg[SH190] 
+	 nonneg[SH191] 
+	 nonneg[SH192] 
+	 nonneg[SH193] 
+	 nonneg[SH196] 
+	 nonneg[SH198] 
+	 nonneg[SH200] 
+	 nonneg[SH202] 
+	 nonneg[SH204] 
+	 nonneg[SH206] 
+	 nonneg[SH208] 
+	 nonneg[SH210] 
+	 nonneg[SH211] 
+	 nonneg[SH212] 
+	 nonneg[SH214] 
+	 nonneg[SH215] 
+	 nonneg[SH216] 
+	 nonneg[SH218] 
+	 nonneg[SH219] 
+	 nonneg[SH220] 
+	 nonneg[SH228] 
+	 nonneg[SH231] 
+	 nonneg[SH237] 
+	 nonneg[SH242] 
+	 nonneg[SH243] 
+	 nonneg[SH245] 
+	 nonneg[SH246] 
+	 nonneg[SH250] 
+	 nonneg[SH251] 
+	 nonneg[SH252] 
+	 nonneg[SH257] 
+	 nonneg[SH258] 
+	 nonneg[SH259] 
+	 nonneg[SH263] 
+	 nonneg[SH264] 
+	 nonneg[SH266] 
+	 nonneg[SH267] 
+	 nonneg[SH268] 
+	 nonneg[SH271] 
+	 nonneg[SH272] 
+	 nonneg[SH275] 
+	 nonneg[SH278] 
+	 nonneg[SH280] 
+	 nonneg[SH283] 
+	 nonneg[SH285] 
+	 nonneg[SH291] 
+	 nonneg[SH292] 
+	 nonneg[SH293] 
+	 nonneg[SH294] 
+	 nonneg[SH296] 
+	 nonneg[SH297] 
+	 nonneg[SH301] 
+	 nonneg[SH302] 
+	 nonneg[SH303] 
+	 nonneg[SH304] 
+	 nonneg[SH305] 
+	 nonneg[SH306] 
+	 nonneg[SH307] 
+	 nonneg[SH309] 
+	 nonneg[SH310] 
+	 nonneg[SH311] 
+	 nonneg[SH315] 
+	 nonneg[SH318] 
+	 nonneg[SH319] 
+	 nonneg[SH321] 
+	 nonneg[SH323] 
+	 nonneg[SH324] 
+	 nonneg[SH327] 
+	 nonneg[SH330] 
+	 nonneg[SH332] 
+	 nonneg[SH333] 
+	 nonneg[SH335] 
+	 nonneg[SH336] 
+	 nonneg[SH337] 
+	 nonneg[SH339] 
+	 nonneg[SH343] 
+	 nonneg[SH344] 
+	 nonneg[SH346] 
+	 nonneg[SH350] 
+	 nonneg[SH351] 
+	 nonneg[SH353] 
+	 nonneg[SH354] 
+	 nonneg[SH355] 
+	 nonneg[SH357] 
+	 nonneg[SH358] 
+	 nonneg[SH360] 
+	 nonneg[SH363] 
+	 nonneg[SH364] 
+	 nonneg[SH368] 
+	 nonneg[SH370] 
+	 nonneg[SH374] 
+	 nonneg[SH375] 
+	 nonneg[SH377] 
+	 nonneg[SH380] 
+	 nonneg[SH382] 
+	 nonneg[SH383] 
+	 nonneg[SH385] 
+	 nonneg[SH386] 
+	 nonneg[SH387] 
+	 nonneg[SH388] 
+	 nonneg[SH389] 
+	 nonneg[SH390] 
+	 nonneg[SH392] 
+	 nonneg[SH393] 
+	 nonneg[SH396] 
+	 nonneg[SH397] 
+	 nonneg[SH398] 
+	 nonneg[SH401] 
+	 nonneg[SH403] 
+	 nonneg[SH404] 
+	 nonneg[SH405] 
+	 nonneg[SH406] 
+	 nonneg[SH408] 
+	 nonneg[SH409] 
+	 nonneg[SH412] 
+	 nonneg[SH413] 
+	 nonneg[SH414] 
+	 nonneg[SH416] 
+	 nonneg[SH422] 
+	 nonneg[SH424] 
+	 nonneg[SH426] 
+	 nonneg[SH428] 
+	 nonneg[SH431] 
+	 nonneg[SH432] 
+	 nonneg[SH433] 
+	 nonneg[SH434] 
+	 nonneg[SH436] 
+	 nonneg[SH437] 
+	 nonneg[SH439] 
+	 nonneg[SH440] 
+	 nonneg[SH441] 
+	 nonneg[SH443] 
+	 nonneg[SH446] 
+	 nonneg[SH448] 
+	 nonneg[SH450] 
+	 nonneg[SH452] 
+	 nonneg[SH454] 
+	 nonneg[SH455] 
+	 nonneg[SH460] 
+	 nonneg[SH461] 
+	 nonneg[SH463] 
+	 nonneg[SH469] 
+	 nonneg[SH475] 
+	 nonneg[SH480] 
+	 nonneg[SH481] 
+	 nonneg[SH482] 
+	 nonneg[SH484] 
+	 nonneg[SH485] 
+	 nonneg[SH486] 
+	 nonneg[SH488] 
+	 nonneg[SH493] 
+	 nonneg[SH494] 
+	 nonneg[SH502] 
+	 nonneg[SH503] 
+	 nonneg[SH504] 
+	 nonneg[SH505] 
+	 nonneg[SH506] 
+	 nonneg[SH507] 
+	 nonneg[SH509] 
+	 nonneg[SH510] 
+	 nonneg[SH512] 
+	 nonneg[SH515] 
+	 nonneg[SH517] 
+	 nonneg[SH518] 
+	 nonneg[SH519] 
+	 nonneg[SH526] 
+	 nonneg[SH528] 
+	 nonneg[SH529] 
+	 nonneg[SH530] 
+	 nonneg[SH531] 
+	 nonneg[SH533] 
+	 nonneg[SH538] 
+	 nonneg[SH539] 
+	 nonneg[SH541] 
+	 nonneg[SH542] 
+	 nonneg[SH545] 
+	 nonneg[SH548] 
+	 nonneg[SH550] 
+	 nonneg[SH551] 
+	 nonneg[SH553] 
+	 nonneg[SH554] 
+	 nonneg[SH555] 

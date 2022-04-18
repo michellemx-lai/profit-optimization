@@ -1,0 +1,80 @@
+/*
+
+Michelle_Lai_laimic12_1007260250
+Jasmine_Chahal_chahal44_1006872889
+Katriel_Ung_ungkatri_1006747200
+
+*/
+
+reset;
+
+### import the model
+
+model 'warpShoe.mod';
+data 'warpShoe.dat';
+
+### import gurobi
+option solver gurobi;
+
+### solve model 
+
+solve;
+
+### print to warpShoe.out
+
+########################## Note to see attached files
+printf 'a) Please see attached mod, dat and run files.\n' >> warpShoe.out;
+
+########################## Optimal Objective Value
+printf 'b) Optimal objective function value: %.2f\n', profit >> warpShoe.out;
+
+########################## Optimal x-values
+printf 'c) Optimal x values:\n' > warpShoe.out;
+	for {i in shoe_num} {
+		if x[i] > 0 then
+			printf'\t x[%s] = %.0f\n', i, floor(x[i]) > warpShoe.out;
+		}
+printf '\t All other variables are zero.\n';
+########################## Optimal y-values
+printf 'c) Optimal y values:\n' > warpShoe.out;
+	for {j in warehouse_num} {
+		if y[j] > 0 then
+			printf '\t y[%s] = %.0f\n', j, y[j] > warpShoe.out;
+		}
+printf '\t All other variables are zero.\n';
+########################## Check for binding constraints
+
+printf 'd) Binding constraints: \n' > warpShoe.out;
+
+	for {i in shoe_num} {						 #produceAndDemand constraint
+		if produceAndDemand[i].slack <= 1E-4 then {
+			printf'\t produceAndDemand[%s]\n', i >  warpShoe.out;
+			}
+		}
+		
+	for {j in RM_num} {							 #materialSupply 
+		if materialSupply[j].slack <= 1E-4 then {
+			printf'\t materialSupply[%s]\n', j >  warpShoe.out;
+			}
+		}
+		
+	if maxShoes.slack <= 1E-4 then {			 #maxShoes constraint
+			printf'\t maxShoes \n' > warpShoe.out;
+		}
+		
+	for {k in machine_num} {					 #machineRunTime constraint
+		if machineRunTime[k].slack <= 1E-4 then {
+			printf'\t machineRunTime[%d]\n' > warpShoe.out;
+			}
+		}
+		
+	if materialBudget.slack <= 1E-4 then {	     #materialBudget constraint
+			printf'\t materialBudget\n'> warpShoe.out;
+			}
+			
+	for {i in shoe_num} {						 #nonneg constraint
+		if nonneg[i].slack <= 1E-4 then {
+			printf'\t nonneg[%s] \n', i > warpShoe.out;
+			}
+		}
+##########################
